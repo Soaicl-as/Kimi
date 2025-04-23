@@ -11,13 +11,12 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "instagram-private-api": "^4.28.2",
+    "instagram-private-api": "^4.28.2", // Ensure this is the correct version
     "express-session": "^1.17.2",
     "session-file-store": "^1.5.0",
     "express-rate-limit": "^6.0.0"
   },
-  "devDependencies": {
-    "concurrently": "^7.0.0",
-    "nodemon": "^2.0.15"
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
   }
 }
